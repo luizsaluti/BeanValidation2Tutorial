@@ -3,7 +3,7 @@ package validator;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import validador.interfaces.Sexo;
+import validador.constraints.Sexo;
 
 public class SexoValidator implements ConstraintValidator<Sexo, String> {
 //	protected String sexo;

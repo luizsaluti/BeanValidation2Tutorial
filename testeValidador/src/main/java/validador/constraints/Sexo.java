@@ -1,4 +1,4 @@
-package validador.interfaces;
+package validador.constraints;
 
 import static java.lang.annotation.ElementType.ANNOTATION_TYPE;
 import static java.lang.annotation.ElementType.CONSTRUCTOR;
