@@ -5,7 +5,7 @@ import javax.validation.ConstraintValidatorContext;
 
 import validador.constraints.Sexo;
 
-public class SexoValidator implements ConstraintValidator<Sexo, String> {
+public class SexoValidator implements ConstraintValidator<Sexo, String> {//onde está String, pode ser um objeto complexo
 //	protected String sexo;
 
 //	@Override
