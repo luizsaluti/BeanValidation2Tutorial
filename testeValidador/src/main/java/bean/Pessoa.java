@@ -26,7 +26,7 @@ public class Pessoa {
 	@NotNull(message = "Data de validade do cadastro não pode ser nula")
     private Date validadeCadastro;
     
-    @Sexo    
+    @Sexo    //mensagem padrão será exibida
     private String sexo;
     
 	public Integer getId() {
@@ -36,7 +36,7 @@ public class Pessoa {
 		this.id = id;
 	}
 	
-	private String getNome() {
+	public String getNome() {
 		return nome;
 	}
 	public void setNome(String nome) {
